@@ -6,19 +6,19 @@ public class CheckingAccount {
     private double balance;
 
     public CheckingAccount(String acctId, double startingBalance) {
-        //if (isAmountValid(startingBalance)){
+
+       // if (isAmountValid(startingBalance)){
             this.balance = startingBalance;
             this.acctId = acctId;
         //}
+
 
 //        else {
 //            throw new IllegalArgumentException("Dollar Amount: " + startingBalance + " is invalid, cannot create account");
 //        }
     }
 
-    public double getBalance() {
-        return balance;
-    }
+    public double getBalance() { return balance; }
 
     public String getAcctId() { return acctId; }
 

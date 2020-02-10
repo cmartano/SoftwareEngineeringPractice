@@ -13,5 +13,4 @@ public class CentralBankTest {
         assertEquals(100, bankAccount.getBalance());
     }
 
-
 }
